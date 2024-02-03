@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Charles
-- 👀 I’m interested in computer science,communication, AI and robots
+- 👀 I’m interested in computer science, communication, AI and robots
 - 🌱 I’m currently learning electronic information engineering
 - 💞️ I’m looking to collaborate on machine learning projects
 - 📫 How to reach me:       ischarlesyang@gmail.com
