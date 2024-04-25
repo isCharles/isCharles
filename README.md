@@ -1,5 +1,5 @@
-- 👋 Hi, I’m Charles
-- 👀 I’m interested in computer science, communication, AI and robots
-- 🌱 I’m currently learning electronic information engineering
-- 💞️ I’m looking to collaborate on machine learning projects
-- 📫 How to reach me:       ischarlesyang@gmail.com
+- 👋 Hi there! I'm Charles, a passionate individual delving into the realms of AI, computer science, and telecommunication.
+- 👨🏻‍💻 Currently, I'm honing my skills as an intern network engineer at h3c.
+- 🌱 I'm pursuing a degree in electronic information engineering at SHU, where I'm continuously expanding my knowledge base.
+- 💡 Excited about machine learning, I'm eager to collaborate on projects that push the boundaries of innovation.
+- 📫 Feel free to reach out to me at ischarlesyang@gmail.com or ischarlesyang@outlook.com.
