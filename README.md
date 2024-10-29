@@ -1,4 +1,4 @@
-- 👋 Hi there! I'm Charles, passionate about AI, computer science, and telecommunication.  
+- 👋 Hi there! I'm Charles/Zhi Yang, passionate about AI, computer science, and telecommunication.  
 - 🎓 Thrilled to share that I've been pre-admitted as a graduate student at Beijing University of Posts and Telecommunications (BUPT)!  
 - 👨🏻‍💻 Currently, I'm honing my skills as an intern network engineer at h3c.  
 - 🌱 I'm pursuing a degree in electronic information engineering at SHU.  
