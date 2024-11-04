@@ -3,11 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Charles/Zhi Yang's Personal Page</title>
+    <style>
+        /* 页面整体样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        /* 容器样式 */
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out;
+            text-align: center;
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #00d4ff;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+
+        /* 每行文字样式 */
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+        }
+
+        /* 图标样式 */
+        .emoji {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+        /* 文字悬停效果 */
+        p:hover {
+            color: #00d4ff;
+            transition: color 0.3s;
+        }
+
+        /* 关键帧动画 - 渐入效果 */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 关键帧动画 - 发光效果 */
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 30px #00d4ff;
+            }
+            to {
+                text-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea, 0 0 40px #00ffea;
+            }
+        }
+
+        /* 联系方式的链接样式 */
+        a {
+            color: #99f2c8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #00d4ff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is my personal website hosted on GitHub Pages.</p>
+    <div class="container">
+        <h1>👋 Hi there! I'm Charles/Zhi Yang</h1>
+        <p><span class="emoji">🎓</span>Thrilled to share that I've been pre-admitted as a graduate student at Beijing University of Posts and Telecommunications (BUPT)!</p>
+        <p><span class="emoji">👨🏻‍💻</span>Currently, I'm honing my skills as an intern network engineer at H3C.</p>
+        <p><span class="emoji">🌱</span>I'm pursuing a degree in electronic information engineering at SHU.</p>
+        <p><span class="emoji">💡</span>Excited about machine learning, I'm eager to collaborate on projects that push the boundaries of innovation.</p>
+        <p><span class="emoji">📫</span>Feel free to reach out to me at:</p>
+        <p><a href="mailto:ischarlesyang@gmail.com">ischarlesyang@gmail.com</a></p>
+        <p><a href="mailto:ischarlesyang@outlook.com">ischarlesyang@outlook.com</a></p>
+    </div>
 </body>
 </html>
-
