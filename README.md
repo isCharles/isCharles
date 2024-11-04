@@ -6,4 +6,4 @@
 - 📫 Feel free to reach out to me at **ischarlesyang@gmail.com** or **ischarlesyang@outlook.com**.
 -
 -
-- 🔥🔥🔥🔥🔥🔥🔥🔥**Try https://ischarles.github.io/isCharles to talk to my avatar!!!!**🔥🔥🔥🔥🔥🔥🔥🔥
+- 🔥🔥🔥🔥🔥🔥🔥🔥 **Try https://ischarles.github.io/isCharles to talk to my avatar!!!!** 🔥🔥🔥🔥🔥🔥🔥🔥
