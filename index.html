@@ -5,44 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charles/Zhi Yang's Personal Page</title>
     <style>
-        /* 页面整体样式 */
+        /* 全局样式 */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #1f4037, #99f2c8);
             color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             overflow: hidden;
         }
-        
-        /* 容器样式 */
+
+        /* 星空背景 */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: black;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            opacity: 0.8;
+            animation: twinkle 2s infinite ease-in-out alternate;
+        }
+
+        @keyframes twinkle {
+            from { opacity: 0.2; }
+            to { opacity: 0.8; }
+        }
+
+        /* 页面容器样式 */
         .container {
             max-width: 600px;
+            margin: 5% auto;
             padding: 2rem;
             background: rgba(0, 0, 0, 0.6);
             border-radius: 15px;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-            animation: fadeIn 1s ease-in-out;
             text-align: center;
         }
 
-        /* 标题样式 */
+        /* 渐变标题 */
         h1 {
             font-size: 2.5rem;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            -webkit-background-clip: text;
+            color: transparent;
             margin-bottom: 1rem;
-            color: #00d4ff;
-            animation: glow 1.5s ease-in-out infinite alternate;
+            animation: textGlow 2s ease-in-out infinite alternate;
         }
 
-        /* 每行文字样式 */
+        /* 关键帧动画 - 发光效果 */
+        @keyframes textGlow {
+            from {
+                text-shadow: 0 0 10px #e52e71, 0 0 20px #e52e71, 0 0 30px #e52e71;
+            }
+            to {
+                text-shadow: 0 0 20px #ff8a00, 0 0 30px #ff8a00, 0 0 40px #ff8a00;
+            }
+        }
+
+        /* 3D旋转效果 */
         p {
             font-size: 1.2rem;
             line-height: 1.6;
             margin: 0.5rem 0;
+            transition: transform 0.3s ease;
+        }
+
+        p:hover {
+            transform: rotateY(10deg) rotateX(10deg);
+            color: #ff8a00;
         }
 
         /* 图标样式 */
@@ -51,47 +90,21 @@
             margin-right: 0.5rem;
         }
 
-        /* 文字悬停效果 */
-        p:hover {
-            color: #00d4ff;
-            transition: color 0.3s;
-        }
-
-        /* 关键帧动画 - 渐入效果 */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* 关键帧动画 - 发光效果 */
-        @keyframes glow {
-            from {
-                text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 30px #00d4ff;
-            }
-            to {
-                text-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea, 0 0 40px #00ffea;
-            }
-        }
-
         /* 联系方式的链接样式 */
         a {
             color: #99f2c8;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
 
         a:hover {
             text-decoration: underline;
-            color: #00d4ff;
+            color: #ff8a00;
         }
     </style>
 </head>
 <body>
+    <div class="background" id="background"></div>
     <div class="container">
         <h1>👋 Hi there! I'm Charles/Zhi Yang</h1>
         <p><span class="emoji">🎓</span>Thrilled to share that I've been pre-admitted as a graduate student at Beijing University of Posts and Telecommunications (BUPT)!</p>
@@ -102,5 +115,21 @@
         <p><a href="mailto:ischarlesyang@gmail.com">ischarlesyang@gmail.com</a></p>
         <p><a href="mailto:ischarlesyang@outlook.com">ischarlesyang@outlook.com</a></p>
     </div>
+
+    <script>
+        // 星空背景效果
+        function createStar() {
+            const star = document.createElement('div');
+            star.classList.add('star');
+            star.style.top = Math.random() * 100 + 'vh';
+            star.style.left = Math.random() * 100 + 'vw';
+            star.style.animationDuration = Math.random() * 2 + 1 + 's';
+            document.getElementById('background').appendChild(star);
+        }
+
+        for (let i = 0; i < 150; i++) {
+            createStar();
+        }
+    </script>
 </body>
 </html>
