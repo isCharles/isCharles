@@ -52,7 +52,7 @@
 
 
 
-  ## <div><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30px" align="center" alt="Laptop Emoji" /> Technical Skills that I Do Not Possess:</div>
+  ## <div><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30px" align="center" alt="Laptop Emoji" /> Technical Skills that I list out for no reason</div>
 
   ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
