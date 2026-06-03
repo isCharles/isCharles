@@ -6,6 +6,8 @@
 
 I like turning messy ideas into small, useful systems: AI workflows, web products, backend experiments, model deployment notes, and the occasional "let's see if this works" prototype.
 
+<img align="right" width="320" src="https://github.com/user-attachments/assets/754f7f48-57b4-4b8f-9054-b21ef7803698" alt="Coding animation" />
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-ischarles.github.io-111827?style=for-the-badge&logo=githubpages&logoColor=white)](https://ischarles.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ischarlesyang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ischarlesyang/)
 [![Email](https://img.shields.io/badge/Email-ischarlesyang%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ischarlesyang@gmail.com)
@@ -62,12 +64,16 @@ Current mode:
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-## GitHub Pulse
+## Signal
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=isCharles&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Charles's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isCharles&layout=compact&theme=transparent&hide_border=true" alt="Charles's top languages" />
+<img src="https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39" alt="GitHub animation" />
+
+<br />
+<br />
+
+<strong>Less noise. More shipped experiments.</strong>
 
 </div>
 
