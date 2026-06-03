@@ -53,6 +53,12 @@ charles@backend-lab:~$ ./focus
 > Personal site: writing, projects, and public learning logs
 ```
 
+<div align="center">
+  <img src="./assets/shibuya-sky.jpg" alt="Charles at Shibuya Sky overlooking Tokyo" width="82%" />
+  <br />
+  <sub>Shibuya Sky, Tokyo - looking at cities like systems: dense, layered, alive.</sub>
+</div>
+
 ## Featured Work
 
 | Project | Signal |
