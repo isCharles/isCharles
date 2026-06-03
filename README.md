@@ -43,6 +43,16 @@
   </tr>
 </table>
 
+## Currently Building
+
+```bash
+charles@backend-lab:~$ ./focus
+> Java backend fundamentals: Spring Boot, MyBatis, Redis, MySQL
+> High-concurrency cases: cache protection, flash sale orders, async queues
+> AI engineering bridge: speech research -> deployable tools
+> Personal site: writing, projects, and public learning logs
+```
+
 ## Featured Work
 
 | Project | Signal |
@@ -63,12 +73,24 @@
   <img src="./assets/backend-pipeline.svg" alt="Animated backend request pipeline" width="100%" />
 </div>
 
+<div align="center">
+  <img src="./assets/backend-battle-cards.svg" alt="Animated backend engineering battle cards" width="100%" />
+</div>
+
 ## Research
 
 | Work | Venue |
 | --- | --- |
 | StableTTS: Towards Efficient Denoising Acoustic Decoder for Text-to-Speech Synthesis with Consistency Flow Matching | IEEE Transactions, 2025 |
 | VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin | Interspeech, 2025 |
+
+## Research x Engineering
+
+| Research Side | Engineering Side |
+| --- | --- |
+| Speech synthesis and speaker modeling | Model conversion, inference notes, reproducible experiments |
+| Large-scale longitudinal speech data | Data pipelines, structured evaluation, practical tooling |
+| Acoustic decoder efficiency | Deployment awareness, ONNX conversion, latency thinking |
 
 ## Toolbox
 
@@ -101,6 +123,35 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+## Roadmap
+
+<details open>
+<summary><strong>Backend depth</strong></summary>
+
+- Strengthen Java fundamentals, JVM, concurrency, and Spring internals.
+- Build more production-shaped projects around auth, cache, MQ, scheduling, and observability.
+- Keep turning Redis patterns into small reproducible demos.
+
+</details>
+
+<details>
+<summary><strong>AI engineering bridge</strong></summary>
+
+- Connect speech research experience with practical model serving and deployment.
+- Write clearer notes on PyTorch to ONNX conversion and inference tradeoffs.
+- Explore useful AI tools that can become real backend services.
+
+</details>
+
+<details>
+<summary><strong>Public learning system</strong></summary>
+
+- Improve the personal site as a portfolio and thinking archive.
+- Ship small experiments, then document what actually worked.
+- Keep this profile honest, specific, and alive.
+
+</details>
 
 <br />
 
