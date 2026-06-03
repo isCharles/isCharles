@@ -17,11 +17,6 @@
 
 <img src="https://komarev.com/ghpvc/?username=ischarles&style=flat-square&color=0ea5e9" alt="Profile views" />
 
-<br />
-<br />
-
-<img src="https://github-visitor-counter-tau.vercel.app/api?username=isCharles" alt="Global visitor flags" />
-
 </div>
 
 <br />
@@ -63,6 +58,10 @@
 | --- | --- |
 | Food ordering and admin system | Spring Boot, Spring MVC, MyBatis, MySQL, Redis, Nginx, JWT, WebSocket, Spring Task. Built admin and user-side APIs, token authentication, high-frequency data caching, order reminders, timeout cancellation, reverse proxy, and load balancing. |
 | Local review and coupon system | Spring Boot, MyBatis Plus, MySQL, Redis, RabbitMQ, Lua, JWT, Nginx. Implemented shop query, voucher flash sale, user sign-in, nearby shop search, async order processing, Redis cache protection, Lua-based atomic stock deduction, BitMap, HyperLogLog, GEO, and Redis Stream. |
+
+<div align="center">
+  <img src="./assets/backend-pipeline.svg" alt="Animated backend request pipeline" width="100%" />
+</div>
 
 ## Research
 
