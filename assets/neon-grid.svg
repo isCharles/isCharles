@@ -1,0 +1,69 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="0.58" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="text" x1="260" y1="105" x2="940" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#86efac"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.85 0 0 0 0 1 0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <path d="M0 268 C180 206 257 323 404 244 C564 158 646 180 783 230 C947 290 1051 209 1200 176" stroke="#22d3ee" stroke-opacity="0.38" stroke-width="2"/>
+  <path d="M0 296 C155 252 246 296 382 266 C520 235 632 120 783 168 C933 216 1032 281 1200 224" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="2"/>
+
+  <g filter="url(#glow)">
+    <circle cx="174" cy="118" r="4" fill="#22d3ee">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="302" cy="250" r="5" fill="#86efac">
+      <animate attributeName="opacity" values="1;0.28;1" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="908" cy="126" r="5" fill="#a78bfa">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1032" cy="238" r="4" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0.22;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M174 118 L302 250 L540 180 L908 126 L1032 238" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.5"/>
+  </g>
+
+  <rect x="-360" y="0" width="260" height="360" fill="url(#beam)" opacity="0.38">
+    <animate attributeName="x" from="-360" to="1300" dur="5.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="138" text-anchor="middle" fill="url(#text)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="4">
+    CHARLES YANG
+  </text>
+  <text x="600" y="187" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="6">
+    AI SYSTEMS / FULL STACK / BUPT
+  </text>
+  <text x="600" y="235" text-anchor="middle" fill="#67e8f9" font-family="Cascadia Code, Consolas, monospace" font-size="18" letter-spacing="1">
+    build small -> learn fast -> ship sharper
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/>
+  </text>
+
+  <rect x="28" y="28" width="1144" height="304" rx="22" stroke="#67e8f9" stroke-opacity="0.25"/>
+</svg>
