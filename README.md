@@ -38,35 +38,12 @@
 
   </td>
   <td width="42%" valign="top" align="center">
-    <img width="330" src="https://github.com/user-attachments/assets/754f7f48-57b4-4b8f-9054-b21ef7803698" alt="Coding animation" />
+    <img width="240" src="./assets/shibuya-sky.jpg" alt="Charles at Shibuya Sky overlooking Tokyo" />
+    <br />
+    <sub>Shibuya Sky, Tokyo</sub>
   </td>
   </tr>
 </table>
-
-## Currently Building
-
-```bash
-charles@backend-lab:~$ ./focus
-> Java backend fundamentals: Spring Boot, MyBatis, Redis, MySQL
-> High-concurrency cases: cache protection, flash sale orders, async queues
-> AI engineering bridge: speech research -> deployable tools
-> Personal site: writing, projects, and public learning logs
-```
-
-<div align="center">
-  <img src="./assets/shibuya-sky.jpg" alt="Charles at Shibuya Sky overlooking Tokyo" width="82%" />
-  <br />
-  <sub>Shibuya Sky, Tokyo - looking at cities like systems: dense, layered, alive.</sub>
-</div>
-
-## Featured Work
-
-| Project | Signal |
-| --- | --- |
-| [ischarles.github.io](https://github.com/isCharles/ischarles.github.io) | Personal site and public home base. |
-| [MiniAuth](https://github.com/isCharles/MiniAuth) | Minimal FastAPI auth system with SQLAlchemy and JWT. |
-| [Pytorch2ONNX](https://github.com/isCharles/Pytorch2ONNX) | Practical PyTorch to ONNX conversion guide. |
-| [todos](https://github.com/isCharles/todos) | Small JavaScript productivity experiment. |
 
 ## Backend Project Experience
 
@@ -75,28 +52,12 @@ charles@backend-lab:~$ ./focus
 | Food ordering and admin system | Spring Boot, Spring MVC, MyBatis, MySQL, Redis, Nginx, JWT, WebSocket, Spring Task. Built admin and user-side APIs, token authentication, high-frequency data caching, order reminders, timeout cancellation, reverse proxy, and load balancing. |
 | Local review and coupon system | Spring Boot, MyBatis Plus, MySQL, Redis, RabbitMQ, Lua, JWT, Nginx. Implemented shop query, voucher flash sale, user sign-in, nearby shop search, async order processing, Redis cache protection, Lua-based atomic stock deduction, BitMap, HyperLogLog, GEO, and Redis Stream. |
 
-<div align="center">
-  <img src="./assets/backend-pipeline.svg" alt="Animated backend request pipeline" width="100%" />
-</div>
-
-<div align="center">
-  <img src="./assets/backend-battle-cards.svg" alt="Animated backend engineering battle cards" width="100%" />
-</div>
-
 ## Research
 
 | Work | Venue |
 | --- | --- |
 | StableTTS: Towards Efficient Denoising Acoustic Decoder for Text-to-Speech Synthesis with Consistency Flow Matching | IEEE Transactions, 2025 |
 | VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin | Interspeech, 2025 |
-
-## Research x Engineering
-
-| Research Side | Engineering Side |
-| --- | --- |
-| Speech synthesis and speaker modeling | Model conversion, inference notes, reproducible experiments |
-| Large-scale longitudinal speech data | Data pipelines, structured evaluation, practical tooling |
-| Acoustic decoder efficiency | Deployment awareness, ONNX conversion, latency thinking |
 
 ## Toolbox
 
@@ -129,35 +90,6 @@ charles@backend-lab:~$ ./focus
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-## Roadmap
-
-<details open>
-<summary><strong>Backend depth</strong></summary>
-
-- Strengthen Java fundamentals, JVM, concurrency, and Spring internals.
-- Build more production-shaped projects around auth, cache, MQ, scheduling, and observability.
-- Keep turning Redis patterns into small reproducible demos.
-
-</details>
-
-<details>
-<summary><strong>AI engineering bridge</strong></summary>
-
-- Connect speech research experience with practical model serving and deployment.
-- Write clearer notes on PyTorch to ONNX conversion and inference tradeoffs.
-- Explore useful AI tools that can become real backend services.
-
-</details>
-
-<details>
-<summary><strong>Public learning system</strong></summary>
-
-- Improve the personal site as a portfolio and thinking archive.
-- Ship small experiments, then document what actually worked.
-- Keep this profile honest, specific, and alive.
-
-</details>
 
 <br />
 
