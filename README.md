@@ -20,7 +20,7 @@
 <br />
 <br />
 
-<img src="https://github-visitor-counter-tau.vercel.app/api?username=isCharles&theme=github-dark&columns=6&maxflags=18&label=Global%20Visitors" alt="Global visitor flags" />
+<img src="https://github-visitor-counter-tau.vercel.app/api?username=isCharles" alt="Global visitor flags" />
 
 </div>
 
