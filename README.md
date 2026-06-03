@@ -17,6 +17,11 @@
 
 <img src="https://komarev.com/ghpvc/?username=ischarles&style=flat-square&color=0ea5e9" alt="Profile views" />
 
+<br />
+<br />
+
+<img src="https://github-visitor-counter-tau.vercel.app/api?username=isCharles&theme=github-dark&columns=6&maxflags=18&label=Global%20Visitors" alt="Global visitor flags" />
+
 </div>
 
 <br />
