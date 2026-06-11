@@ -45,19 +45,12 @@
   </tr>
 </table>
 
-## Featured Projects
+## Project Experience
 
 | Project | What it is | Engineering Highlights |
 | --- | --- | --- |
-| [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, asynchronous order processing, load testing, and observability-oriented performance work. |
-| [OfferMate](https://github.com/isCharles/interview-guide) | An AI interview preparation workspace adapted from Interview-Guide and deployed as a protected public demo. | Spring Boot, React, PostgreSQL, Redis, MinIO, LLM provider configuration, resume analysis, mock interviews, RAG-style knowledge base, Docker deployment, and Cloudflare Tunnel. [Demo](https://interview.ischarlesyang.com) |
-
-## Backend Project Experience
-
-| Project | Engineering Highlights |
-| --- | --- |
-| Food ordering and admin system | Spring Boot, Spring MVC, MyBatis, MySQL, Redis, Nginx, JWT, WebSocket, Spring Task. Built admin and user-side APIs, token authentication, high-frequency data caching, order reminders, timeout cancellation, reverse proxy, and load balancing. |
-| Local review and coupon system | Spring Boot, MyBatis Plus, MySQL, Redis, RabbitMQ, Lua, JWT, Nginx. Implemented shop query, voucher flash sale, user sign-in, nearby shop search, async order processing, Redis cache protection, Lua-based atomic stock deduction, BitMap, HyperLogLog, GEO, and Redis Stream. |
+| [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, cache penetration/breakdown protection, asynchronous order processing, Lua-based atomic stock deduction, load testing, and observability-oriented performance work. |
+| [OfferMate](https://github.com/isCharles/interview-guide) | An AI interview preparation workspace adapted from Interview-Guide and deployed as a protected public demo. | Spring Boot, React, PostgreSQL, Redis, MinIO, LLM provider configuration, resume analysis, mock interviews, RAG-style knowledge base, Docker deployment, Cloudflare Tunnel, and protected public access. [Demo](https://interview.ischarlesyang.com) |
 
 ## Research
 
