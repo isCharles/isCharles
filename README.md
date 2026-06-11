@@ -9,7 +9,7 @@
 <p>I care about reliable backend systems, practical AI tooling, and the engineering details that turn demos into something people can actually use.</p>
 
 <p>
-  <a href="https://ischarles.github.io/"><img src="https://img.shields.io/badge/Portfolio-ischarles.github.io-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://ischarlesyang.com/"><img src="https://img.shields.io/badge/Portfolio-ischarlesyang.com-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="https://img.shields.io/badge/LinkedIn-ischarlesyang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:ischarlesyang@gmail.com"><img src="https://img.shields.io/badge/Email-ischarlesyang%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://x.com/ischarlesyang"><img src="https://img.shields.io/badge/X-@ischarlesyang-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
@@ -30,8 +30,8 @@
 <ul>
   <li><strong>Java backend systems</strong>: Spring Boot services, REST APIs, authentication, caching, and deployment.</li>
   <li><strong>High-concurrency patterns</strong>: Redis cache strategies, atomic Lua scripts, async queues, and traffic smoothing.</li>
-  <li><strong>Data and infrastructure</strong>: MySQL, Redis, RabbitMQ, Nginx, JWT, WebSocket, and scheduled jobs.</li>
-  <li><strong>AI speech research</strong>: text-to-speech, speaker aging, model conversion, and practical deployment notes.</li>
+  <li><strong>Data and infrastructure</strong>: MySQL, Redis, RocketMQ, PostgreSQL, Nginx, Docker, JWT, and Cloudflare deployment.</li>
+  <li><strong>AI product engineering</strong>: LLM provider integration, resume analysis, RAG-style knowledge bases, and practical AI tooling.</li>
 </ul>
 
 <pre><code>mode: understand the system -> find the bottleneck -> make it reliable</code></pre>
@@ -44,6 +44,13 @@
   </td>
   </tr>
 </table>
+
+## Featured Projects
+
+| Project | What it is | Engineering Highlights |
+| --- | --- | --- |
+| [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, asynchronous order processing, load testing, and observability-oriented performance work. |
+| [OfferMate](https://github.com/isCharles/interview-guide) | An AI interview preparation workspace adapted from Interview-Guide and deployed as a protected public demo. | Spring Boot, React, PostgreSQL, Redis, MinIO, LLM provider configuration, resume analysis, mock interviews, RAG-style knowledge base, Docker deployment, and Cloudflare Tunnel. [Demo](https://interview.ischarlesyang.com) |
 
 ## Backend Project Experience
 
@@ -81,7 +88,9 @@
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![RocketMQ](https://img.shields.io/badge/RocketMQ-D77310?style=flat&logo=apache&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
