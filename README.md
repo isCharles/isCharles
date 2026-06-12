@@ -54,10 +54,10 @@
 
 ## Research
 
-| Work | Venue |
-| --- | --- |
-| StableTTS: Towards Efficient Denoising Acoustic Decoder for Text-to-Speech Synthesis with Consistency Flow Matching | IEEE Transactions, 2025 |
-| VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin | Interspeech, 2025 |
+| Work | Venue | Focus |
+| --- | --- | --- |
+| [StableTTS: Towards Efficient Denoising Acoustic Decoder for Text-to-Speech Synthesis with Consistency Flow Matching](https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=StableTTS%20Towards%20Efficient%20Denoising%20Acoustic%20Decoder%20for%20Text-to-Speech%20Synthesis%20with%20Consistency%20Flow%20Matching) | 2025 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW) | Efficient text-to-speech acoustic decoding with consistency flow matching for faster, stable synthesis. |
+| [VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin](https://arxiv.org/abs/2505.21445) | Interspeech, 2025 | Large-scale longitudinal speaker aging study across English and Mandarin speech, spanning 293 speakers and up to 17 years of weekly recordings. |
 
 ## Toolbox
 
