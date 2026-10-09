@@ -1,69 +1,93 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Charles Yang — Curious by nature, Reliable by habit</title>
+  <desc id="desc">A red editorial grid that dims to burgundy while Curious and Reliable remain bright and change color, a cropped I am, an italic e, and small A1 to A6 annotations.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.45" stop-color="#07111f"/>
-      <stop offset="1" stop-color="#0f172a"/>
-    </linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="0.42" stop-color="#22d3ee" stop-opacity="0.85"/>
-      <stop offset="0.58" stop-color="#a78bfa" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="text" x1="260" y1="105" x2="940" y2="220" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67e8f9"/>
-      <stop offset="0.5" stop-color="#f8fafc"/>
-      <stop offset="1" stop-color="#86efac"/>
-    </linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 L 0 0 0 48" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1"/>
+    <pattern id="grid" width="100" height="65" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 H 0 V 65" fill="none" stroke="#171717" stroke-opacity=".16" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.85 0 0 0 0 1 0 0 0 0.75 0"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="1040" rx="22"/>
+    </clipPath>
+    <style>
+      .display { font-family: Arial, Helvetica, sans-serif; font-weight: 600; letter-spacing: -10px; }
+      .tiny { font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: .4px; }
+      .info { font-family: Arial, Helvetica, sans-serif; font-size: 14px; letter-spacing: .2px; }
+      .word-a { animation: drift-a 7.5s ease-in-out infinite alternate; }
+      .word-b { animation: drift-b 6.4s ease-in-out infinite alternate; }
+      .word-c { animation: drift-c 8.2s ease-in-out infinite alternate; }
+      .word-d { animation: drift-b 7.1s ease-in-out infinite alternate-reverse; }
+      .word-e { animation: drift-a 6.8s ease-in-out infinite alternate-reverse; }
+      .word-f { animation: drift-c 7.8s ease-in-out infinite alternate-reverse; }
+      .tick { animation: tick 2.8s steps(1,end) infinite; }
+      .keyword-curious { animation: keyword-curious 12s ease-in-out infinite; }
+      .keyword-reliable { animation: keyword-reliable 12s ease-in-out infinite; }
+      .power-cut { opacity: 0; animation: power-cut 12s ease-in-out infinite; }
+      @keyframes drift-a { to { transform: translate(22px, -8px); } }
+      @keyframes drift-b { to { transform: translate(-18px, 6px); } }
+      @keyframes drift-c { to { transform: translate(15px, 9px); } }
+      @keyframes tick { 0%, 49% { opacity: 1; } 50%, 100% { opacity: .15; } }
+      @keyframes keyword-curious {
+        0%, 39%, 67%, 100% { fill: #f5f1e9; filter: none; }
+        51%, 54% { fill: #a6eee6; filter: none; }
+      }
+      @keyframes keyword-reliable {
+        0%, 39%, 67%, 100% { fill: #f5f1e9; filter: none; }
+        51%, 54% { fill: #e4efac; filter: none; }
+      }
+      @keyframes power-cut {
+        0%, 39%, 67%, 100% { opacity: 0; }
+        51%, 54% { opacity: .70; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .word-a, .word-b, .word-c, .word-d, .word-e, .word-f, .tick, .keyword-curious, .keyword-reliable, .power-cut { animation: none; }
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-  <path d="M0 268 C180 206 257 323 404 244 C564 158 646 180 783 230 C947 290 1051 209 1200 176" stroke="#22d3ee" stroke-opacity="0.38" stroke-width="2"/>
-  <path d="M0 296 C155 252 246 296 382 266 C520 235 632 120 783 168 C933 216 1032 281 1200 224" stroke="#a78bfa" stroke-opacity="0.32" stroke-width="2"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="1040" fill="#ff3533"/>
+    <rect width="1200" height="1040" fill="url(#grid)"/>
 
-  <g filter="url(#glow)">
-    <circle cx="174" cy="118" r="4" fill="#22d3ee">
-      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="302" cy="250" r="5" fill="#86efac">
-      <animate attributeName="opacity" values="1;0.28;1" dur="3.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="908" cy="126" r="5" fill="#a78bfa">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1032" cy="238" r="4" fill="#22d3ee">
-      <animate attributeName="opacity" values="1;0.22;1" dur="3.1s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M174 118 L302 250 L540 180 L908 126 L1032 238" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.5"/>
+    <text x="124" y="52" class="display" font-size="188" fill="#171717">I am</text>
+    <text x="48" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-style="italic" fill="#171717">e.</text>
+    <text x="449" y="102" class="tiny" fill="#171717">(A1)</text>
+
+
+    <text x="48" y="230" class="tiny" fill="#171717">CHARLES YANG</text>
+    <text x="48" y="248" class="tiny" fill="#171717">BEIJING · BUPT</text>
+    <text x="1027" y="315" class="tiny" fill="#171717">(A2)</text>
+
+    <g class="word-b">
+      <text x="54" y="438" class="display" font-size="169" fill="#171717">by</text>
+    </g>
+    <text x="398" y="429" class="tiny" fill="#171717">(A3)</text>
+    <g class="word-c">
+      <text x="444" y="553" class="display" font-size="159" fill="#f5f1e9">nature</text>
+    </g>
+
+    <text x="1052" y="610" class="tiny" fill="#171717">(A4)</text>
+
+
+    <text x="544" y="784" class="tiny" fill="#171717">(A5)</text>
+    <g class="word-e">
+      <text x="879" y="824" class="display" font-size="151" fill="#171717">by</text>
+    </g>
+    <g class="word-f">
+      <text x="452" y="932" class="display" font-size="164" fill="#f5f1e9">habit</text>
+    </g>
+
+    <g class="info" fill="#171717">
+      <text x="48" y="992">Backend · AI · Infrastructure / Building reliable systems and intelligent agents.</text>
+    </g>
+    <path d="M1072 983 h26 m-9 -9 9 9 -9 9" fill="none" stroke="#171717" stroke-width="1.5"/>
+    <circle class="tick" cx="1124" cy="983" r="4" fill="#171717"/>
+    <text x="1115" y="1015" class="tiny" fill="#171717">(A6)</text>
+    <rect class="power-cut" width="1200" height="1040" fill="#180d20"/>
+    <g class="word-a">
+      <text x="430" y="265" class="display keyword-curious" font-size="158" fill="#f5f1e9">Curious</text>
+    </g>
+    <g class="word-d">
+      <text x="55" y="729" class="display keyword-reliable" font-size="161" fill="#f5f1e9">Reliable</text>
+    </g>
   </g>
-
-  <rect x="-360" y="0" width="260" height="360" fill="url(#beam)" opacity="0.38">
-    <animate attributeName="x" from="-360" to="1300" dur="5.6s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="600" y="138" text-anchor="middle" fill="url(#text)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="4">
-    CHARLES YANG
-  </text>
-  <text x="600" y="187" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="6">
-    AI SYSTEMS / FULL STACK / BUPT
-  </text>
-  <text x="600" y="235" text-anchor="middle" fill="#67e8f9" font-family="Cascadia Code, Consolas, monospace" font-size="18" letter-spacing="1">
-    build small -> learn fast -> ship sharper
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/>
-  </text>
-
-  <rect x="28" y="28" width="1144" height="304" rx="22" stroke="#67e8f9" stroke-opacity="0.25"/>
 </svg>
