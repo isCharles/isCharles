@@ -8,11 +8,11 @@
 
 <p>I care about reliable systems and aesthetics. Reach out anywhere below, though I'm probably quickest on WeChat.</p>
 
-<p>
+<p align="left">
   <a href="https://ischarlesyang.com/"><img src="https://img.shields.io/badge/Portfolio-ischarlesyang.com-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a> <span>— More of what I build, and a bit of me.</span><br />
   <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="https://img.shields.io/badge/LinkedIn-ischarlesyang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <span>— Let's connect and network.</span><br />
   <a href="mailto:ischarlesyang@gmail.com"><img src="https://img.shields.io/badge/Email-ischarlesyang%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <span>— Send me a note for a proper hello.</span><br />
-  <a href="https://x.com/ischarlesyang"><img src="https://img.shields.io/badge/X-@ischarlesyang-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a> <span>— Passing thoughts and interesting finds.</span>
+  <a href="https://x.com/ischarlesyang"><img src="https://img.shields.io/badge/X-@ischarlesyang-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a> <span>— I only use it to check on Tibo's reset.</span>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=ischarles&style=flat-square&color=0ea5e9" alt="Profile views" />
@@ -111,10 +111,6 @@
 <br />
 <br />
 
-<strong>Less noise. More shipped experiments.</strong>
-
-<br />
-
-<sub>Open to collaboration on AI products, practical ML tooling, and clean web systems.</sub>
+<strong>Looking for a software engineering internship. Got an interesting quest? <a href="mailto:ischarlesyang@gmail.com">Let's talk.</a></strong>
 
 </div>
