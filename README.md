@@ -4,15 +4,15 @@
 
 <h1>Hi, I'm Charles Yang</h1>
 
-<p><strong>Java backend engineer, AI speech researcher, and BUPT graduate student based in Beijing.</strong></p>
+<p><strong>I am a researcher and engineer. I aspire to make a difference in the world... and see as much of it as I can.</strong></p>
 
-<p>I care about reliable backend systems, practical AI tooling, and the engineering details that turn demos into something people can actually use.</p>
+<p>I care about reliable systems and aesthetics. Reach out anywhere below, though I'm probably quickest on WeChat.</p>
 
 <p>
-  <a href="https://ischarlesyang.com/"><img src="https://img.shields.io/badge/Portfolio-ischarlesyang.com-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="https://img.shields.io/badge/LinkedIn-ischarlesyang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:ischarlesyang@gmail.com"><img src="https://img.shields.io/badge/Email-ischarlesyang%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://x.com/ischarlesyang"><img src="https://img.shields.io/badge/X-@ischarlesyang-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://ischarlesyang.com/"><img src="https://img.shields.io/badge/Portfolio-ischarlesyang.com-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a> <span>— More of what I build, and a bit of me.</span><br />
+  <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="https://img.shields.io/badge/LinkedIn-ischarlesyang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <span>— Let's connect and network.</span><br />
+  <a href="mailto:ischarlesyang@gmail.com"><img src="https://img.shields.io/badge/Email-ischarlesyang%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <span>— Send me a note for a proper hello.</span><br />
+  <a href="https://x.com/ischarlesyang"><img src="https://img.shields.io/badge/X-@ischarlesyang-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a> <span>— Passing thoughts and interesting finds.</span>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=ischarles&style=flat-square&color=0ea5e9" alt="Profile views" />
@@ -34,7 +34,7 @@
   <li><strong>AI product engineering</strong>: LLM provider integration, resume analysis, RAG-style knowledge bases, and practical AI tooling.</li>
 </ul>
 
-<pre><code>mode: understand the system -> find the bottleneck -> make it reliable</code></pre>
+<pre><code>Thanks to coding agents, I can turn all my wild thoughts into products.</code></pre>
 
   </td>
   <td width="42%" valign="top" align="center">
@@ -49,8 +49,8 @@
 
 | Project | What it is | Engineering Highlights |
 | --- | --- | --- |
-| [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, cache penetration/breakdown protection, asynchronous order processing, Lua-based atomic stock deduction, load testing, and observability-oriented performance work. |
 | [Project Ardor](https://github.com/isCharles/project-ardor) | A self-hostable AI career agent that connects résumé analysis, interview practice, learning plans, and a calendar while carrying context across conversations. | Java 21, Spring Boot, Next.js, PostgreSQL, Redis, LangChain4j, and Docker Compose; modular monolith, persistent agent memory, tool calling, user-scoped data access, and encrypted model credentials. |
+| [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, cache penetration/breakdown protection, asynchronous order processing, Lua-based atomic stock deduction, load testing, and observability-oriented performance work. |
 
 ## Research
 
