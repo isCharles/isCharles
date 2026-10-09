@@ -8,6 +8,13 @@
     <clipPath id="frame">
       <rect width="1200" height="1040" rx="22"/>
     </clipPath>
+    <filter id="neon-blur" x="-25%" y="-45%" width="150%" height="190%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="curious-slice-a"><rect x="420" y="176" width="780" height="23"/></clipPath>
+    <clipPath id="curious-slice-b"><rect x="420" y="230" width="780" height="16"/></clipPath>
+    <clipPath id="reliable-slice-a"><rect x="45" y="645" width="1155" height="23"/></clipPath>
+    <clipPath id="reliable-slice-b"><rect x="45" y="700" width="1155" height="16"/></clipPath>
     <style>
       .display { font-family: Arial, Helvetica, sans-serif; font-weight: 600; letter-spacing: -10px; }
       .tiny { font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: .4px; }
@@ -19,27 +26,66 @@
       .word-e { animation: drift-a 6.8s ease-in-out infinite alternate-reverse; }
       .word-f { animation: drift-c 7.8s ease-in-out infinite alternate-reverse; }
       .tick { animation: tick 2.8s steps(1,end) infinite; }
-      .keyword-curious { animation: keyword-curious 12s ease-in-out infinite; }
-      .keyword-reliable { animation: keyword-reliable 12s ease-in-out infinite; }
+      .keyword-curious { animation: keyword-curious 12s linear infinite; }
+      .keyword-reliable { animation: keyword-reliable 12s linear infinite; }
+      .neon-glow { opacity: 0; filter: url(#neon-blur); animation: neon-glow 12s linear infinite; }
+      .glitch-curious-a { animation: glitch-curious-a 12s steps(1,end) infinite; }
+      .glitch-curious-b { animation: glitch-curious-b 12s steps(1,end) infinite; }
+      .glitch-reliable-a { animation: glitch-reliable-a 12s steps(1,end) infinite; }
+      .glitch-reliable-b { animation: glitch-reliable-b 12s steps(1,end) infinite; }
+      .glitch-slice { opacity: 0; }
       .power-cut { opacity: 0; animation: power-cut 12s ease-in-out infinite; }
       @keyframes drift-a { to { transform: translate(22px, -8px); } }
       @keyframes drift-b { to { transform: translate(-18px, 6px); } }
       @keyframes drift-c { to { transform: translate(15px, 9px); } }
       @keyframes tick { 0%, 49% { opacity: 1; } 50%, 100% { opacity: .15; } }
       @keyframes keyword-curious {
-        0%, 39%, 67%, 100% { fill: #f5f1e9; filter: none; }
-        51%, 54% { fill: #a6eee6; filter: none; }
+        0%, 39%, 67%, 100% { fill: #f5f1e9; }
+        43%, 48%, 50%, 62% { fill: #68fff1; }
+        48.4%, 50.4%, 54.5% { fill: #f5f1e9; }
+        51%, 54%, 58% { fill: #a2fff5; }
       }
       @keyframes keyword-reliable {
-        0%, 39%, 67%, 100% { fill: #f5f1e9; filter: none; }
-        51%, 54% { fill: #e4efac; filter: none; }
+        0%, 39%, 67%, 100% { fill: #f5f1e9; }
+        43%, 48%, 50%, 62% { fill: #ff69dc; }
+        48.4%, 50.4%, 54.5% { fill: #f5f1e9; }
+        51%, 54%, 58% { fill: #ffa2eb; }
+      }
+      @keyframes neon-glow {
+        0%, 39%, 67%, 100% { opacity: 0; }
+        43%, 48%, 51%, 58%, 62% { opacity: .42; }
+        48.4%, 50.4%, 54.5% { opacity: .12; }
+      }
+      @keyframes glitch-curious-a {
+        0%, 43.9%, 44.4%, 50.9%, 51.4%, 57.9%, 58.3%, 100% { opacity: 0; transform: translate(0,0); }
+        44%, 44.3% { opacity: .88; transform: translate(12px,-2px); }
+        51%, 51.3% { opacity: .72; transform: translate(-9px,1px); }
+        58%, 58.2% { opacity: .8; transform: translate(8px,0); }
+      }
+      @keyframes glitch-curious-b {
+        0%, 47.9%, 48.3%, 53.9%, 54.3%, 60.9%, 61.2%, 100% { opacity: 0; transform: translate(0,0); }
+        48%, 48.2% { opacity: .8; transform: translate(-11px,2px); }
+        54%, 54.2% { opacity: .9; transform: translate(14px,-1px); }
+        61%, 61.1% { opacity: .65; transform: translate(-6px,0); }
+      }
+      @keyframes glitch-reliable-a {
+        0%, 44.9%, 45.3%, 52.9%, 53.3%, 59.9%, 60.2%, 100% { opacity: 0; transform: translate(0,0); }
+        45%, 45.2% { opacity: .85; transform: translate(-13px,1px); }
+        53%, 53.2% { opacity: .8; transform: translate(10px,-2px); }
+        60%, 60.1% { opacity: .7; transform: translate(-8px,0); }
+      }
+      @keyframes glitch-reliable-b {
+        0%, 46.9%, 47.3%, 54.9%, 55.3%, 61.9%, 62.2%, 100% { opacity: 0; transform: translate(0,0); }
+        47%, 47.2% { opacity: .85; transform: translate(11px,-2px); }
+        55%, 55.2% { opacity: .8; transform: translate(-12px,1px); }
+        62%, 62.1% { opacity: .6; transform: translate(7px,0); }
       }
       @keyframes power-cut {
         0%, 39%, 67%, 100% { opacity: 0; }
         51%, 54% { opacity: .70; }
       }
       @media (prefers-reduced-motion: reduce) {
-        .word-a, .word-b, .word-c, .word-d, .word-e, .word-f, .tick, .keyword-curious, .keyword-reliable, .power-cut { animation: none; }
+        .word-a, .word-b, .word-c, .word-d, .word-e, .word-f, .tick, .keyword-curious, .keyword-reliable, .neon-glow, .glitch-slice, .power-cut { animation: none; }
       }
     </style>
   </defs>
@@ -84,10 +130,16 @@
     <text x="1115" y="1015" class="tiny" fill="#171717">(A6)</text>
     <rect class="power-cut" width="1200" height="1040" fill="#180d20"/>
     <g class="word-a">
+      <text x="430" y="265" class="display neon-glow" font-size="158" fill="#68fff1">Curious</text>
       <text x="430" y="265" class="display keyword-curious" font-size="158" fill="#f5f1e9">Curious</text>
+      <text x="430" y="265" class="display glitch-slice glitch-curious-a" font-size="158" fill="#ff7be6" clip-path="url(#curious-slice-a)">Curious</text>
+      <text x="430" y="265" class="display glitch-slice glitch-curious-b" font-size="158" fill="#9afff5" clip-path="url(#curious-slice-b)">Curious</text>
     </g>
     <g class="word-d">
+      <text x="55" y="729" class="display neon-glow" font-size="161" fill="#ff69dc">Reliable</text>
       <text x="55" y="729" class="display keyword-reliable" font-size="161" fill="#f5f1e9">Reliable</text>
+      <text x="55" y="729" class="display glitch-slice glitch-reliable-a" font-size="161" fill="#79fff0" clip-path="url(#reliable-slice-a)">Reliable</text>
+      <text x="55" y="729" class="display glitch-slice glitch-reliable-b" font-size="161" fill="#ffb0eb" clip-path="url(#reliable-slice-b)">Reliable</text>
     </g>
   </g>
 </svg>
