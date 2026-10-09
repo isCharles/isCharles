@@ -47,7 +47,7 @@
 
 | Project | What it is | Engineering Highlights |
 | --- | --- | --- |
-| [Ardor](https://github.com/isCharles/project-ardor) | A self-hostable AI career agent that connects résumé analysis, interview practice, learning plans, and a calendar while carrying context across conversations. | Java 21, Spring Boot, Next.js, PostgreSQL, Redis, LangChain4j, and Docker Compose; modular monolith, persistent agent memory, tool calling, user-scoped data access, and encrypted model credentials. Moreover, enthusiasim |
+| [Ardor](https://github.com/isCharles/project-ardor) | A self-hostable AI career agent that connects résumé analysis, interview practice, learning plans, and a calendar while carrying context across conversations. | Java 21, Spring Boot, Next.js, PostgreSQL, Redis, LangChain4j, and Docker Compose; modular monolith, persistent agent memory, tool calling, user-scoped data access, and encrypted model credentials.<br /><em>And a slightly unreasonable amount of enthusiasm.</em> |
 | [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, cache penetration/breakdown protection, asynchronous order processing, Lua-based atomic stock deduction, load testing, and observability-oriented performance work. |
 
 ## Research
