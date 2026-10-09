@@ -6,8 +6,6 @@
 
 <p><strong>I am a researcher and engineer. I aspire to make a difference in the world... and see as much of it as I can.</strong></p>
 
-<p>I care about reliable systems and aesthetics. Reach out anywhere below, though I'm probably quickest on WeChat.</p>
-
 <p align="left">
   <a href="https://ischarlesyang.com/"><img src="./assets/badge-portfolio.svg" alt="Portfolio — ischarlesyang.com" width="460" /></a> <span>— More of me</span><br />
   <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="./assets/badge-linkedin.svg" alt="LinkedIn — ischarlesyang" width="460" /></a> <span>— Let's connect!🤝</span><br />
@@ -34,7 +32,7 @@
   <li><strong>AI product engineering</strong>: LLM provider integration, resume analysis, RAG-style knowledge bases, and practical AI tooling.</li>
 </ul>
 
-<pre><code>Thanks to coding agents, I can turn all my wild thoughts into products.</code></pre>
+<p>I care about reliable systems and aesthetics.</p>
 
   </td>
   <td width="42%" valign="top" align="center">
