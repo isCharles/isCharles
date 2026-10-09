@@ -9,10 +9,10 @@
 <p>I care about reliable systems and aesthetics. Reach out anywhere below, though I'm probably quickest on WeChat.</p>
 
 <p align="left">
-  <a href="https://ischarlesyang.com/"><img src="https://img.shields.io/badge/Portfolio-ischarlesyang.com-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a> <span>— More of what I build, and a bit of me.</span><br />
-  <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="https://img.shields.io/badge/LinkedIn-ischarlesyang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <span>— Let's connect and network.</span><br />
-  <a href="mailto:ischarlesyang@gmail.com"><img src="https://img.shields.io/badge/Email-ischarlesyang%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <span>— Send me a note for a proper hello.</span><br />
-  <a href="https://x.com/ischarlesyang"><img src="https://img.shields.io/badge/X-@ischarlesyang-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a> <span>— I only use it to check on Tibo's reset.</span>
+  <a href="https://ischarlesyang.com/"><img src="./assets/badge-portfolio.svg" alt="Portfolio — ischarlesyang.com" width="460" /></a> <span>— More of me</span><br />
+  <a href="https://www.linkedin.com/in/ischarlesyang/"><img src="./assets/badge-linkedin.svg" alt="LinkedIn — ischarlesyang" width="460" /></a> <span>— Let's connect!🤝</span><br />
+  <a href="mailto:ischarlesyang@gmail.com"><img src="./assets/badge-email.svg" alt="Email — ischarlesyang@gmail.com" width="460" /></a> <span>— I’d love to hear from you</span><br />
+  <a href="https://x.com/ischarlesyang"><img src="./assets/badge-x.svg" alt="X — @ischarlesyang" width="460" /></a> <span>— I only use it to check on Tibo's reset.</span>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=ischarles&style=flat-square&color=0ea5e9" alt="Profile views" />
@@ -49,7 +49,7 @@
 
 | Project | What it is | Engineering Highlights |
 | --- | --- | --- |
-| [Project Ardor](https://github.com/isCharles/project-ardor) | A self-hostable AI career agent that connects résumé analysis, interview practice, learning plans, and a calendar while carrying context across conversations. | Java 21, Spring Boot, Next.js, PostgreSQL, Redis, LangChain4j, and Docker Compose; modular monolith, persistent agent memory, tool calling, user-scoped data access, and encrypted model credentials. |
+| [Ardor](https://github.com/isCharles/project-ardor) | A self-hostable AI career agent that connects résumé analysis, interview practice, learning plans, and a calendar while carrying context across conversations. | Java 21, Spring Boot, Next.js, PostgreSQL, Redis, LangChain4j, and Docker Compose; modular monolith, persistent agent memory, tool calling, user-scoped data access, and encrypted model credentials. Moreover, enthusiasim |
 | [TimeGrocery](https://github.com/isCharles/TimeGrocery) | A city-local grocery and deals platform for shop discovery, voucher flash sales, and order workflows. | Spring Boot, Vue 3, Redis, RocketMQ, MySQL, multi-level caching, cache penetration/breakdown protection, asynchronous order processing, Lua-based atomic stock deduction, load testing, and observability-oriented performance work. |
 
 ## Research

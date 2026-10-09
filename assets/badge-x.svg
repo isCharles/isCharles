@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="42" viewBox="0 0 460 42" role="img" aria-label="X — @ischarlesyang">
+  <rect width="460" height="42" fill="#050505"/>
+  <rect width="150" height="42" fill="#555555"/>
+  <path d="M17 12h4l18 18h-4zM37 12h-3L17 30h3z" fill="#fff"/>
+  <text x="48" y="26" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">X</text>
+  <text x="169" y="26" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.1">@ISCHARLESYANG</text>
+</svg>
